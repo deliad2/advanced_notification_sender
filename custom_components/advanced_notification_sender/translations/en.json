@@ -1,9 +1,0 @@
-{
-  "send": "Send Notification (TTS + Text)",
-  "mode": "Send Mode",
-  "person": "Person",
-  "tts_text": "TTS Message",
-  "tts_message_channel": "TTS Channel",
-  "text_message": "Text Message",
-  "text_message_channel": "Text Message Channel"
-}

@@ -5,7 +5,5 @@
   "documentation": "https://github.com/deliad2/advanced_notification_sender",
   "requirements": [],
   "dependencies": [],
-  "codeowners": [
-    "@deliad2"
-  ]
+  "codeowners": ["@deliad2"]
 }

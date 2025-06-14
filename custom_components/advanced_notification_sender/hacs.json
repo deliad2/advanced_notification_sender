@@ -1,0 +1,11 @@
+{
+  "name": "Advanced Notification Sender",
+  "domain": "advanced_notification_sender",
+  "documentation": "https://github.com/deliad2/advanced_notification_sender",
+  "source": "https://github.com/deliad2/advanced_notification_sender",
+  "version": "1.0.0",
+  "requirements": [],
+  "codeowners": ["@deliad2"],
+  "config_flow": false,
+  "integration_type": "integration"
+}
