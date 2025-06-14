@@ -21,8 +21,6 @@ async def async_setup(hass: HomeAssistant, config: dict) -> bool:
 
         for tracker in trackers:
             notify_target = tracker.replace("device_tracker.", "")
-            service_name = f"notify.{notify_target}"
-
             await hass.services.async_call(
                 "notify", notify_target,
                 {
@@ -38,7 +36,6 @@ async def async_setup(hass: HomeAssistant, config: dict) -> bool:
                 },
                 blocking=True
             )
-
             await hass.services.async_call(
                 "notify", notify_target,
                 {

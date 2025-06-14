@@ -6,6 +6,6 @@
   "version": "1.0.0",
   "requirements": [],
   "codeowners": ["@deliad2"],
-  "config_flow": false,
+  "config_flow": true,
   "integration_type": "integration"
 }
