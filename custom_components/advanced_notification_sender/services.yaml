@@ -1,0 +1,38 @@
+send:
+  name: Send TTS + Text to Person or All
+  description: Send a TTS and Text message to all device trackers of a person or all in the system
+  fields:
+    mode:
+      required: true
+      example: person
+      selector:
+        select:
+          options:
+            - person
+            - all
+    person:
+      required: false
+      example: person.david_levi
+      selector:
+        entity:
+          domain: person
+    tts_text:
+      required: true
+      example: "זוהי הודעת חירום"
+      selector:
+        text:
+    tts_message_channel:
+      required: true
+      example: "tts_alerts"
+      selector:
+        text:
+    text_message:
+      required: true
+      example: "הודעה רגילה"
+      selector:
+        text:
+    text_message_channel:
+      required: true
+      example: "text_alerts"
+      selector:
+        text:
